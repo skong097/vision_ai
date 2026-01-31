@@ -1,0 +1,356 @@
+2026-01-28 18:38:29 [INFO] ============================================================
+2026-01-28 18:38:29 [INFO] 실시간 낙상 감지 시스템 초기화 시작
+2026-01-28 18:38:29 [INFO] ============================================================
+2026-01-28 18:38:29 [INFO] 🤖 모델 로딩 중...
+2026-01-28 18:38:29 [INFO] ✅ Random Forest 모델 로드 성공: /home/gjkong/dev_ws/yolo/myproj/models/3class/random_forest_model.pkl
+2026-01-28 18:38:29 [INFO] ✅ YOLO Pose 모델 로드 성공
+2026-01-28 18:38:29 [INFO] 모델 타입: 3class
+2026-01-28 18:38:29 [INFO] 클래스: {0: 'Normal', 1: 'Falling', 2: 'Fallen'}
+2026-01-28 18:38:29 [INFO] 버퍼 크기: 30 frames
+2026-01-28 18:38:29 [INFO] ✅ Feature 순서 로드: 181개
+2026-01-28 18:38:29 [INFO] ✅ 초기화 완료!
+2026-01-28 18:38:29 [INFO] ============================================================
+2026-01-28 18:38:29 [INFO] ============================================================
+2026-01-28 18:38:29 [INFO] 🎥 실시간 낙상 감지 시작
+2026-01-28 18:38:29 [INFO] 카메라 ID: 0
+2026-01-28 18:38:29 [INFO] 비디오 저장: False
+2026-01-28 18:38:29 [INFO] ============================================================
+2026-01-28 18:38:30 [INFO] 해상도: 640x480
+2026-01-28 18:38:34 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:34.900359",
+  "frame": 82,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:34 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:34.942368",
+  "frame": 83,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.317704",
+  "frame": 92,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.369369",
+  "frame": 93,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.420959",
+  "frame": 94,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.462248",
+  "frame": 95,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.503659",
+  "frame": 96,
+  "prediction": "Falling",
+  "probability": 0.37,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.585022",
+  "frame": 98,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [INFO] Frame 100: Falling (확률: 40.0%)
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.668672",
+  "frame": 100,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.709881",
+  "frame": 101,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.794291",
+  "frame": 103,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.846687",
+  "frame": 104,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.899444",
+  "frame": 105,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.942356",
+  "frame": 106,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:35.994820",
+  "frame": 107,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:36.086856",
+  "frame": 109,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:36.168662",
+  "frame": 111,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:36.209712",
+  "frame": 112,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:36.251340",
+  "frame": 113,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:36.376393",
+  "frame": 116,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:36.540497",
+  "frame": 120,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:36.745377",
+  "frame": 122,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:36.786839",
+  "frame": 123,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:36.827808",
+  "frame": 124,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:36.931758",
+  "frame": 126,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:37.013721",
+  "frame": 128,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:37.054927",
+  "frame": 129,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:37.416777",
+  "frame": 137,
+  "prediction": "Falling",
+  "probability": 0.3899765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:37.468850",
+  "frame": 138,
+  "prediction": "Falling",
+  "probability": 0.3999765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:37.646030",
+  "frame": 142,
+  "prediction": "Falling",
+  "probability": 0.4399765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:37.854653",
+  "frame": 147,
+  "prediction": "Falling",
+  "probability": 0.3999765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:38 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:38:38 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:38:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:39.697725",
+  "frame": 190,
+  "prediction": "Falling",
+  "probability": 0.3999765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:39.739459",
+  "frame": 191,
+  "prediction": "Falling",
+  "probability": 0.3999765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:40 [INFO] Frame 200: Normal (확률: 46.0%)
+2026-01-28 18:38:44 [INFO] Frame 300: Normal (확률: 52.0%)
+2026-01-28 18:38:48 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:48.088412",
+  "frame": 381,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:48 [INFO] Frame 400: Falling (확률: 42.0%)
+2026-01-28 18:38:48 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:48.960966",
+  "frame": 400,
+  "prediction": "Falling",
+  "probability": 0.4199765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:38:50.870397",
+  "frame": 442,
+  "prediction": "Falling",
+  "probability": 0.4199765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:38:53 [INFO] Frame 500: Normal (확률: 46.0%)
+2026-01-28 18:38:55 [INFO] 사용자 종료 요청
+2026-01-28 18:38:55 [INFO] 📊 통계 저장: logs/statistics_20260128_183855.json
+2026-01-28 18:38:55 [INFO] ============================================================
+2026-01-28 18:38:55 [INFO] ✅ 종료! 총 프레임: 541
+2026-01-28 18:38:55 [INFO] 예측 통계: {'Normal': 504, 'Falling': 36, 'Fallen': 0}
+2026-01-28 18:38:55 [INFO] 낙상 이벤트: 36회
+2026-01-28 18:38:55 [INFO] ============================================================

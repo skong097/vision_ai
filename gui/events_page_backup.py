@@ -1,0 +1,1 @@
+from additional_pages import EventsPage

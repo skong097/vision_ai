@@ -1,0 +1,1298 @@
+{
+  "total_frames": 1050,
+  "prediction_stats": {
+    "Normal": 906,
+    "Falling": 143,
+    "Fallen": 0
+  },
+  "fall_events": [
+    {
+      "timestamp": "2026-01-28T20:10:16.654131",
+      "frame": 22,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:17.055821",
+      "frame": 31,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:20.506982",
+      "frame": 107,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:20.932314",
+      "frame": 117,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:21.087393",
+      "frame": 120,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:21.214761",
+      "frame": 123,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:21.256952",
+      "frame": 124,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:21.516336",
+      "frame": 130,
+      "prediction": "Falling",
+      "probability": 0.3699765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:21.610129",
+      "frame": 132,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:22.178361",
+      "frame": 145,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:22.416637",
+      "frame": 150,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:22.500119",
+      "frame": 152,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:23.485048",
+      "frame": 174,
+      "prediction": "Falling",
+      "probability": 0.41,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:23.881349",
+      "frame": 183,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:24.029471",
+      "frame": 186,
+      "prediction": "Falling",
+      "probability": 0.4199765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:24.123969",
+      "frame": 188,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:24.363146",
+      "frame": 193,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:24.632402",
+      "frame": 199,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:24.778602",
+      "frame": 202,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:24.914317",
+      "frame": 205,
+      "prediction": "Falling",
+      "probability": 0.4399765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:25.007820",
+      "frame": 207,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:25.102001",
+      "frame": 209,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:25.322028",
+      "frame": 214,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:25.508191",
+      "frame": 218,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:25.562287",
+      "frame": 219,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:26.653139",
+      "frame": 242,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:27.210783",
+      "frame": 255,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:27.794000",
+      "frame": 268,
+      "prediction": "Falling",
+      "probability": 0.4199765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:28.559752",
+      "frame": 284,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:28.653514",
+      "frame": 286,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:28.758763",
+      "frame": 288,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:28.852397",
+      "frame": 290,
+      "prediction": "Falling",
+      "probability": 0.4199765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:29.032286",
+      "frame": 294,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:29.125427",
+      "frame": 296,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:29.208390",
+      "frame": 298,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:29.332378",
+      "frame": 301,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:29.887576",
+      "frame": 313,
+      "prediction": "Falling",
+      "probability": 0.4299765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:30.044022",
+      "frame": 316,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:30.507196",
+      "frame": 326,
+      "prediction": "Falling",
+      "probability": 0.4199765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:30.890967",
+      "frame": 334,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:31.286084",
+      "frame": 342,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:31.419588",
+      "frame": 345,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:31.679395",
+      "frame": 351,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:31.848724",
+      "frame": 355,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:31.943874",
+      "frame": 357,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:32.079120",
+      "frame": 360,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:32.245601",
+      "frame": 364,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:32.566573",
+      "frame": 371,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:33.086654",
+      "frame": 383,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:33.296652",
+      "frame": 388,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:33.619925",
+      "frame": 395,
+      "prediction": "Falling",
+      "probability": 0.4199765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:33.807758",
+      "frame": 399,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:33.985296",
+      "frame": 403,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:34.069623",
+      "frame": 405,
+      "prediction": "Falling",
+      "probability": 0.42,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:34.369849",
+      "frame": 411,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:34.598814",
+      "frame": 416,
+      "prediction": "Falling",
+      "probability": 0.3699765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:34.962784",
+      "frame": 424,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:35.121106",
+      "frame": 427,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:35.366080",
+      "frame": 432,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:35.501434",
+      "frame": 435,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:35.679565",
+      "frame": 439,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:36.111335",
+      "frame": 448,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:36.153872",
+      "frame": 449,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:36.207582",
+      "frame": 450,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:36.762401",
+      "frame": 462,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:37.407866",
+      "frame": 476,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:37.490740",
+      "frame": 478,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:37.985404",
+      "frame": 489,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:38.121689",
+      "frame": 492,
+      "prediction": "Falling",
+      "probability": 0.4199765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:38.445000",
+      "frame": 499,
+      "prediction": "Falling",
+      "probability": 0.4299765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:38.487083",
+      "frame": 500,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:39.677759",
+      "frame": 527,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:40.156674",
+      "frame": 538,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:40.333021",
+      "frame": 542,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:40.662478",
+      "frame": 549,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:41.259564",
+      "frame": 563,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:41.301235",
+      "frame": 564,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:41.395738",
+      "frame": 566,
+      "prediction": "Falling",
+      "probability": 0.4199765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:41.499962",
+      "frame": 568,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:41.854014",
+      "frame": 576,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:42.349984",
+      "frame": 587,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:42.549284",
+      "frame": 591,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:42.780500",
+      "frame": 596,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:42.821776",
+      "frame": 597,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:42.917247",
+      "frame": 599,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:43.148662",
+      "frame": 604,
+      "prediction": "Falling",
+      "probability": 0.41,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:43.365254",
+      "frame": 609,
+      "prediction": "Falling",
+      "probability": 0.42,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:43.555043",
+      "frame": 613,
+      "prediction": "Falling",
+      "probability": 0.41,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:43.689970",
+      "frame": 616,
+      "prediction": "Falling",
+      "probability": 0.41,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:43.879225",
+      "frame": 620,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:44.016744",
+      "frame": 623,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:44.099451",
+      "frame": 625,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:44.359092",
+      "frame": 631,
+      "prediction": "Falling",
+      "probability": 0.42,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:44.630026",
+      "frame": 637,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:45.408052",
+      "frame": 654,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:45.545390",
+      "frame": 657,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:45.723165",
+      "frame": 661,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:45.910491",
+      "frame": 665,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:46.478156",
+      "frame": 677,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:46.875007",
+      "frame": 686,
+      "prediction": "Falling",
+      "probability": 0.4299765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:47.000838",
+      "frame": 689,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:47.042927",
+      "frame": 690,
+      "prediction": "Falling",
+      "probability": 0.4199765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:47.670934",
+      "frame": 704,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:47.723312",
+      "frame": 705,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:47.858583",
+      "frame": 708,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:48.477296",
+      "frame": 719,
+      "prediction": "Falling",
+      "probability": 0.3699765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:49.313257",
+      "frame": 738,
+      "prediction": "Falling",
+      "probability": 0.37,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:49.417960",
+      "frame": 740,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:49.573742",
+      "frame": 743,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:49.938606",
+      "frame": 751,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:50.108969",
+      "frame": 755,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:51.413430",
+      "frame": 783,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:52.712008",
+      "frame": 811,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:53.079882",
+      "frame": 819,
+      "prediction": "Falling",
+      "probability": 0.37,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:53.163349",
+      "frame": 821,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:53.246363",
+      "frame": 823,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:54.032623",
+      "frame": 840,
+      "prediction": "Falling",
+      "probability": 0.4099765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:54.181893",
+      "frame": 843,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:54.275474",
+      "frame": 845,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:54.685264",
+      "frame": 854,
+      "prediction": "Falling",
+      "probability": 0.41,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:55.001376",
+      "frame": 861,
+      "prediction": "Falling",
+      "probability": 0.3799765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:55.292826",
+      "frame": 868,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:55.376941",
+      "frame": 870,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:55.459986",
+      "frame": 872,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:55.975403",
+      "frame": 883,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:56.351946",
+      "frame": 891,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:56.393439",
+      "frame": 892,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:56.739598",
+      "frame": 900,
+      "prediction": "Falling",
+      "probability": 0.4,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:57.094428",
+      "frame": 908,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:57.985651",
+      "frame": 927,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:58.027927",
+      "frame": 928,
+      "prediction": "Falling",
+      "probability": 0.41,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:58.249828",
+      "frame": 933,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:59.027393",
+      "frame": 950,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:59.112680",
+      "frame": 952,
+      "prediction": "Falling",
+      "probability": 0.42,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:10:59.890287",
+      "frame": 969,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:11:00.343901",
+      "frame": 979,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:11:00.396018",
+      "frame": 980,
+      "prediction": "Falling",
+      "probability": 0.37,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:11:00.438116",
+      "frame": 981,
+      "prediction": "Falling",
+      "probability": 0.41,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:11:02.740499",
+      "frame": 1031,
+      "prediction": "Falling",
+      "probability": 0.38,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:11:03.173126",
+      "frame": 1040,
+      "prediction": "Falling",
+      "probability": 0.3999765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:11:03.364395",
+      "frame": 1044,
+      "prediction": "Falling",
+      "probability": 0.3699765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:11:03.417707",
+      "frame": 1045,
+      "prediction": "Falling",
+      "probability": 0.39,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    },
+    {
+      "timestamp": "2026-01-28T20:11:03.584432",
+      "frame": 1049,
+      "prediction": "Falling",
+      "probability": 0.3899765046830646,
+      "hip_height": 0.0,
+      "spine_angle": 0.0,
+      "hip_velocity": 0.0
+    }
+  ],
+  "avg_fps": 24.221822880325515
+}

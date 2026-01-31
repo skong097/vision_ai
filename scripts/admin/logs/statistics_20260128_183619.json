@@ -1,0 +1,11 @@
+{
+  "total_frames": 251,
+  "skipped_frames": 251,
+  "prediction_stats": {
+    "Normal": 0,
+    "Falling": 0,
+    "Fallen": 0
+  },
+  "fall_events": [],
+  "avg_fps": 31.292790782082008
+}

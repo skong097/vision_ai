@@ -1,0 +1,4973 @@
+2026-01-28 18:26:18 [INFO] ============================================================
+2026-01-28 18:26:18 [INFO] 실시간 낙상 감지 시스템 초기화 시작
+2026-01-28 18:26:18 [INFO] ============================================================
+2026-01-28 18:26:18 [INFO] 🤖 모델 로딩 중...
+2026-01-28 18:26:18 [INFO] ✅ Random Forest 모델 로드 성공: /home/gjkong/dev_ws/yolo/myproj/models/3class/random_forest_model.pkl
+2026-01-28 18:26:18 [INFO] ✅ YOLO Pose 모델 로드 성공
+2026-01-28 18:26:18 [INFO] 모델 타입: 3class
+2026-01-28 18:26:18 [INFO] 클래스: {0: 'Normal', 1: 'Falling', 2: 'Fallen'}
+2026-01-28 18:26:18 [INFO] 버퍼 크기: 30 frames
+2026-01-28 18:26:18 [INFO] ✅ Feature 순서 로드: 181개
+2026-01-28 18:26:18 [INFO] ✅ 초기화 완료!
+2026-01-28 18:26:18 [INFO] ============================================================
+2026-01-28 18:26:18 [INFO] ============================================================
+2026-01-28 18:26:18 [INFO] 🎥 실시간 낙상 감지 시작
+2026-01-28 18:26:18 [INFO] 카메라 ID: 0
+2026-01-28 18:26:18 [INFO] 비디오 저장: False
+2026-01-28 18:26:18 [INFO] ============================================================
+2026-01-28 18:26:19 [INFO] 해상도: 640x480
+2026-01-28 18:26:20 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:20.670761",
+  "frame": 1,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:20 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:20.738528",
+  "frame": 2,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:20 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:20.807950",
+  "frame": 3,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:20 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:20.865355",
+  "frame": 4,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:20 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:20.930890",
+  "frame": 5,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:20 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:20.996979",
+  "frame": 6,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.040747",
+  "frame": 7,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.083967",
+  "frame": 8,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.127867",
+  "frame": 9,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.170697",
+  "frame": 10,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.279317",
+  "frame": 12,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.387774",
+  "frame": 14,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.442487",
+  "frame": 15,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.485052",
+  "frame": 16,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.540228",
+  "frame": 17,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.649006",
+  "frame": 19,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.734321",
+  "frame": 21,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.788162",
+  "frame": 22,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.832514",
+  "frame": 23,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.897348",
+  "frame": 24,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.941472",
+  "frame": 25,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:21.996498",
+  "frame": 26,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.040911",
+  "frame": 27,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.083959",
+  "frame": 28,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.128813",
+  "frame": 29,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.183095",
+  "frame": 30,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.282252",
+  "frame": 32,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.349051",
+  "frame": 33,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.392522",
+  "frame": 34,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.446493",
+  "frame": 35,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.489960",
+  "frame": 36,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.533469",
+  "frame": 37,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.577287",
+  "frame": 38,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.631537",
+  "frame": 39,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.675947",
+  "frame": 40,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.731163",
+  "frame": 41,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.829238",
+  "frame": 43,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.886829",
+  "frame": 44,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.930709",
+  "frame": 45,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:22.985358",
+  "frame": 46,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.029918",
+  "frame": 47,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.096248",
+  "frame": 48,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.152094",
+  "frame": 49,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.208603",
+  "frame": 50,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.263024",
+  "frame": 51,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.306253",
+  "frame": 52,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.349260",
+  "frame": 53,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.391597",
+  "frame": 54,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.490526",
+  "frame": 56,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.546912",
+  "frame": 57,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.590417",
+  "frame": 58,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.645053",
+  "frame": 59,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.698897",
+  "frame": 60,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.742526",
+  "frame": 61,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.808855",
+  "frame": 62,
+  "prediction": "Falling",
+  "probability": 0.5,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.863088",
+  "frame": 63,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.907254",
+  "frame": 64,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:23 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:23.951114",
+  "frame": 65,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.005025",
+  "frame": 66,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.050647",
+  "frame": 67,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.115936",
+  "frame": 68,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.158997",
+  "frame": 69,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.224817",
+  "frame": 70,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.268813",
+  "frame": 71,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.313252",
+  "frame": 72,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.368007",
+  "frame": 73,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.432972",
+  "frame": 74,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.499302",
+  "frame": 75,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.554669",
+  "frame": 76,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.664796",
+  "frame": 78,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.708506",
+  "frame": 79,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.751589",
+  "frame": 80,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.805005",
+  "frame": 81,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.861861",
+  "frame": 82,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:24 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:24.980187",
+  "frame": 84,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:25 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:25.024522",
+  "frame": 85,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:25 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:25.068668",
+  "frame": 86,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:25 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:25.112626",
+  "frame": 87,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:25 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:25.374003",
+  "frame": 92,
+  "prediction": "Falling",
+  "probability": 0.37,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:25 [INFO] Frame 100: Normal (확률: 44.0%)
+2026-01-28 18:26:25 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:25.837071",
+  "frame": 101,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:25 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:25.901170",
+  "frame": 102,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:25 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:25.956586",
+  "frame": 103,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:26 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:26.143347",
+  "frame": 107,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:26 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:26.504915",
+  "frame": 112,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:26 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:26.592890",
+  "frame": 114,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:26 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:26.692632",
+  "frame": 116,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:27 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:27.268887",
+  "frame": 128,
+  "prediction": "Falling",
+  "probability": 0.4399765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:27 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:28 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:28 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:28 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:29 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:29 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:29 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:30 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:30 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:30 [INFO] Frame 200: Normal (확률: 56.0%)
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:30 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:31.749229",
+  "frame": 228,
+  "prediction": "Fallen",
+  "probability": 0.35,
+  "hip_height": 381.34954833984375,
+  "spine_angle": 3.66012210181301,
+  "hip_velocity": 190.2403564453125
+}
+2026-01-28 18:26:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:31.804342",
+  "frame": 229,
+  "prediction": "Falling",
+  "probability": 0.34,
+  "hip_height": 381.8319091796875,
+  "spine_angle": 1.3377305116445501,
+  "hip_velocity": 0.48236083984375
+}
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:31 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:31 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:32 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:32 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:33 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:33 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:33 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:33.670593",
+  "frame": 281,
+  "prediction": "Falling",
+  "probability": 0.35,
+  "hip_height": 389.776123046875,
+  "spine_angle": 0.7178568483838978,
+  "hip_velocity": 270.30950927734375
+}
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:33 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:34 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:34 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:34 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:34 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:34 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:34 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:34 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:34 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:34 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:34 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:34 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:34 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:34 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:34 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:34 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:34 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:34 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:34 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:34 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:35 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:35 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:35 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:35 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:35 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:35 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:35 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:35 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:35 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:35 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:35 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:35 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:35 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:36 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:36 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:36 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:36 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:36 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:36 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:37 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:37 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:37 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:37 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:37 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:37 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:37 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:37 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:37 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:37 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:37 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:37 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:37 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:37 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:37 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:37 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:37 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:37 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:37 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:37 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:38 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:38 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:38 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:38 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:38 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:38 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:38 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:38 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:38 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:39 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:39 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:39 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:40 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:40 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:41 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:41 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:41 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:41 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:41 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:41 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:41 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:41 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:41 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:41 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:41 [INFO] Frame 500: Normal (확률: 62.0%)
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:41 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:42 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:43 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:43 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:43 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:43 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:43 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:43 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:43 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:43.914540",
+  "frame": 548,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:44 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:44 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:44 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:44.178000",
+  "frame": 553,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 207.29647827148438,
+  "spine_angle": 0.0,
+  "hip_velocity": 207.29647827148438
+}
+2026-01-28 18:26:44 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:44.589066",
+  "frame": 560,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 403.315185546875,
+  "spine_angle": 0.0,
+  "hip_velocity": 403.315185546875
+}
+2026-01-28 18:26:44 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:44 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:44 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:45 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:45 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:46 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:46 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:46 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:46 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:46 [INFO] Frame 600: Normal (확률: 63.0%)
+2026-01-28 18:26:46 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:46 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:46 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:46 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:46 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:46 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:46 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:46 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:46 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:47 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:47 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:47 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:47 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:47 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:47 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:47 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:48 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:48 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:48 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:48 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:48 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:48 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:49 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:49.583900",
+  "frame": 684,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:49 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:49.737029",
+  "frame": 687,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:49 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:49.836195",
+  "frame": 689,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:49 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:49.902209",
+  "frame": 690,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:49 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:49.945642",
+  "frame": 691,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.101480",
+  "frame": 694,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.147922",
+  "frame": 695,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.204493",
+  "frame": 696,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.259974",
+  "frame": 697,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.325296",
+  "frame": 698,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.379329",
+  "frame": 699,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [INFO] Frame 700: Falling (확률: 41.0%)
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.446703",
+  "frame": 700,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.502461",
+  "frame": 701,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.557703",
+  "frame": 702,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.600580",
+  "frame": 703,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.643897",
+  "frame": 704,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.688381",
+  "frame": 705,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.732002",
+  "frame": 706,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.787552",
+  "frame": 707,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.833016",
+  "frame": 708,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.888333",
+  "frame": 709,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.931475",
+  "frame": 710,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:50 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:50.986952",
+  "frame": 711,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.031263",
+  "frame": 712,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.075559",
+  "frame": 713,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.131012",
+  "frame": 714,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.187611",
+  "frame": 715,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.243500",
+  "frame": 716,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.287609",
+  "frame": 717,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.397064",
+  "frame": 719,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.440749",
+  "frame": 720,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.539974",
+  "frame": 722,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.594389",
+  "frame": 723,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.638441",
+  "frame": 724,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.703881",
+  "frame": 725,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.758581",
+  "frame": 726,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.844309",
+  "frame": 728,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:51 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:51.932897",
+  "frame": 730,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.031646",
+  "frame": 732,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.096884",
+  "frame": 733,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.140812",
+  "frame": 734,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.206118",
+  "frame": 735,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.249988",
+  "frame": 736,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.304280",
+  "frame": 737,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.360368",
+  "frame": 738,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.403250",
+  "frame": 739,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.468071",
+  "frame": 740,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.522884",
+  "frame": 741,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.567050",
+  "frame": 742,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.621251",
+  "frame": 743,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.721817",
+  "frame": 745,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.766256",
+  "frame": 746,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.823346",
+  "frame": 747,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.878082",
+  "frame": 748,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.932879",
+  "frame": 749,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:52 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:52.978667",
+  "frame": 750,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.034022",
+  "frame": 751,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.101163",
+  "frame": 752,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.144724",
+  "frame": 753,
+  "prediction": "Falling",
+  "probability": 0.5,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.189101",
+  "frame": 754,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.243944",
+  "frame": 755,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.286898",
+  "frame": 756,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.330564",
+  "frame": 757,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.385702",
+  "frame": 758,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.440074",
+  "frame": 759,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.496533",
+  "frame": 760,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.563230",
+  "frame": 761,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.618736",
+  "frame": 762,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.674856",
+  "frame": 763,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.741457",
+  "frame": 764,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.795698",
+  "frame": 765,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.862822",
+  "frame": 766,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.906684",
+  "frame": 767,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:53 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:53.961696",
+  "frame": 768,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.017287",
+  "frame": 769,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.060868",
+  "frame": 770,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.115569",
+  "frame": 771,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.290571",
+  "frame": 774,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.356204",
+  "frame": 775,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.400012",
+  "frame": 776,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.454383",
+  "frame": 777,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.498063",
+  "frame": 778,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.552799",
+  "frame": 779,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.597590",
+  "frame": 780,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.641002",
+  "frame": 781,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.695711",
+  "frame": 782,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.761431",
+  "frame": 783,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.827059",
+  "frame": 784,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.870559",
+  "frame": 785,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.923935",
+  "frame": 786,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:54 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:54.979625",
+  "frame": 787,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.035312",
+  "frame": 788,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.090053",
+  "frame": 789,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.155501",
+  "frame": 790,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.211654",
+  "frame": 791,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.267307",
+  "frame": 792,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.311785",
+  "frame": 793,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.365082",
+  "frame": 794,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.410305",
+  "frame": 795,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.465212",
+  "frame": 796,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.508547",
+  "frame": 797,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.574385",
+  "frame": 798,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.641866",
+  "frame": 799,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [INFO] Frame 800: Falling (확률: 42.0%)
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.686667",
+  "frame": 800,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.742369",
+  "frame": 801,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.797786",
+  "frame": 802,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.851497",
+  "frame": 803,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.898161",
+  "frame": 804,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:55 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:55.985473",
+  "frame": 806,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.041483",
+  "frame": 807,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.151222",
+  "frame": 809,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.194954",
+  "frame": 810,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.250182",
+  "frame": 811,
+  "prediction": "Falling",
+  "probability": 0.49,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.320099",
+  "frame": 812,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.374517",
+  "frame": 813,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.473376",
+  "frame": 815,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.528186",
+  "frame": 816,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.640135",
+  "frame": 818,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.695649",
+  "frame": 819,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.740505",
+  "frame": 820,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.784439",
+  "frame": 821,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.827960",
+  "frame": 822,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.884860",
+  "frame": 823,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.928218",
+  "frame": 824,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:56 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:56.983645",
+  "frame": 825,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.027087",
+  "frame": 826,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.082643",
+  "frame": 827,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.137115",
+  "frame": 828,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.248217",
+  "frame": 830,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.302072",
+  "frame": 831,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.401335",
+  "frame": 833,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.445027",
+  "frame": 834,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.489340",
+  "frame": 835,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.577616",
+  "frame": 837,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.698818",
+  "frame": 839,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.800265",
+  "frame": 841,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:57 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:57.964818",
+  "frame": 844,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:58 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:58.020666",
+  "frame": 845,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:58 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:58.065455",
+  "frame": 846,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:58 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:58.216708",
+  "frame": 849,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:58 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:58.273289",
+  "frame": 850,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:58 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:58.329093",
+  "frame": 851,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:58 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:58.482897",
+  "frame": 854,
+  "prediction": "Falling",
+  "probability": 0.3999765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:58 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:58.537282",
+  "frame": 855,
+  "prediction": "Falling",
+  "probability": 0.4099765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:58 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:58.758157",
+  "frame": 859,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:59 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:26:59.878487",
+  "frame": 885,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": -274.54132080078125
+}
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:26:59 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:26:59 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:00 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:00 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:00 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:27:00 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:00 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:27:00 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:00 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:00 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:00 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:00 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:00 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:00 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:00 [INFO] Frame 900: Normal (확률: 51.0%)
+2026-01-28 18:27:00 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:00 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:00 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:00 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:00 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:01 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:01 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:01 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:01 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:01 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:01 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:01 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.167538",
+  "frame": 937,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.213033",
+  "frame": 938,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.270652",
+  "frame": 939,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.370438",
+  "frame": 941,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.426715",
+  "frame": 942,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.547829",
+  "frame": 944,
+  "prediction": "Falling",
+  "probability": 0.4299765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.646364",
+  "frame": 946,
+  "prediction": "Falling",
+  "probability": 0.4199765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.713427",
+  "frame": 947,
+  "prediction": "Falling",
+  "probability": 0.4399765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.756654",
+  "frame": 948,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.854307",
+  "frame": 950,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:02 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:02.964218",
+  "frame": 952,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:03 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:03.215283",
+  "frame": 957,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:03 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:27:03 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:03 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:03 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:27:03 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:03 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:04 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:04 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:27:04 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:04 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:27:04 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:04 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:04 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:04 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:04 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:05 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:05 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:05 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:05 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:05 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:05 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:05 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:06 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:06 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:07 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:07 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:07 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:07 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:07 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [INFO] Frame 1100: Normal (확률: 53.0%)
+2026-01-28 18:27:08 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:08 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:09 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:09 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:09 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:09 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:09 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:09 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:09 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:09 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:09 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:09 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:10 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:10 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:10 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:10 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:10 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:10 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:10 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:10 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:10 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:10 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:10 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:11 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:11 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:12 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:12 [INFO] Frame 1200: Normal (확률: 70.0%)
+2026-01-28 18:27:13 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:13.668861",
+  "frame": 1217,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:13 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:13.778323",
+  "frame": 1219,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:14 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:14.054451",
+  "frame": 1224,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:14 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:14.217714",
+  "frame": 1227,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:14 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:14.326841",
+  "frame": 1229,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:14 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:14.458725",
+  "frame": 1232,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:14 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:14.501599",
+  "frame": 1233,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:14 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:14.546747",
+  "frame": 1234,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:14 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:14.601337",
+  "frame": 1235,
+  "prediction": "Falling",
+  "probability": 0.5,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:14 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:14.788565",
+  "frame": 1238,
+  "prediction": "Falling",
+  "probability": 0.51,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:14 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:14.843387",
+  "frame": 1239,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:14 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:14.896689",
+  "frame": 1240,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.005423",
+  "frame": 1242,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.069846",
+  "frame": 1243,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.125354",
+  "frame": 1244,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.192597",
+  "frame": 1245,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.236106",
+  "frame": 1246,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.290998",
+  "frame": 1247,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.334053",
+  "frame": 1248,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.389791",
+  "frame": 1249,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.445175",
+  "frame": 1250,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.543657",
+  "frame": 1252,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.587251",
+  "frame": 1253,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.642977",
+  "frame": 1254,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.709000",
+  "frame": 1255,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.762842",
+  "frame": 1256,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.873310",
+  "frame": 1258,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:15 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:15.917462",
+  "frame": 1259,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:16 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:16.050026",
+  "frame": 1261,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:16 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:16.105869",
+  "frame": 1262,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:16 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:16.359513",
+  "frame": 1267,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:16 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:16.426418",
+  "frame": 1268,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:16 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:16.536375",
+  "frame": 1270,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:17 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:17.147969",
+  "frame": 1281,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:17 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:17.192569",
+  "frame": 1282,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:17 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:17.323623",
+  "frame": 1285,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:17 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:17.380683",
+  "frame": 1286,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:17 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:17.435815",
+  "frame": 1287,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:17 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:17.502516",
+  "frame": 1288,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:17 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:17.558804",
+  "frame": 1289,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:17 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:17.615206",
+  "frame": 1290,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:17 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:17.657833",
+  "frame": 1291,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.009753",
+  "frame": 1297,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.063812",
+  "frame": 1298,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.128807",
+  "frame": 1299,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [INFO] Frame 1300: Falling (확률: 39.0%)
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.185224",
+  "frame": 1300,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.250935",
+  "frame": 1301,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.389275",
+  "frame": 1306,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.444798",
+  "frame": 1307,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.585567",
+  "frame": 1313,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.641816",
+  "frame": 1314,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.706676",
+  "frame": 1315,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.751227",
+  "frame": 1316,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:18.795647",
+  "frame": 1317,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:18 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:19.042376",
+  "frame": 1326,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:19 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:19.085962",
+  "frame": 1327,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:19.831307",
+  "frame": 1350,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:19 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [DEBUG] 감지된 keypoint 부족: 0개
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:20.409812",
+  "frame": 1368,
+  "prediction": "Falling",
+  "probability": 0.37,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [DEBUG] 감지된 keypoint 부족: 4개
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:20.760753",
+  "frame": 1378,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:20 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:20.805426",
+  "frame": 1379,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:20 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 1개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [INFO] Frame 1400: Normal (확률: 43.0%)
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:21.647875",
+  "frame": 1405,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:21 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:21 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:22.871389",
+  "frame": 1443,
+  "prediction": "Falling",
+  "probability": 0.3999765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:22 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:22 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:23 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:23 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [INFO] Frame 1500: Normal (확률: 55.0%)
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:24 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:24 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:25 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:25 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:25 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:25 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:25 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:25 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:25 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:25 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:25 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:25 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:25 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:25 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:25 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:25 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:25 [DEBUG] 감지된 keypoint 부족: 3개
+2026-01-28 18:27:25 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:25 [DEBUG] 감지된 keypoint 부족: 2개
+2026-01-28 18:27:25 [WARNING] ⚠️  핵심 Keypoint 감지 실패 - 예측 건너뜀
+2026-01-28 18:27:28 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:28.333684",
+  "frame": 1574,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:28 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:28.489302",
+  "frame": 1577,
+  "prediction": "Falling",
+  "probability": 0.3999765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:28 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:28.642516",
+  "frame": 1580,
+  "prediction": "Falling",
+  "probability": 0.4299765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:28 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:28.864260",
+  "frame": 1584,
+  "prediction": "Falling",
+  "probability": 0.4199765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:29 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:29.048810",
+  "frame": 1588,
+  "prediction": "Falling",
+  "probability": 0.4499765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:29 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:29.266933",
+  "frame": 1592,
+  "prediction": "Falling",
+  "probability": 0.4299765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:29 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:29.462501",
+  "frame": 1596,
+  "prediction": "Falling",
+  "probability": 0.3999765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:29 [INFO] Frame 1600: Normal (확률: 49.0%)
+2026-01-28 18:27:29 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:29.987524",
+  "frame": 1606,
+  "prediction": "Falling",
+  "probability": 0.4199765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:30 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:30.042436",
+  "frame": 1607,
+  "prediction": "Falling",
+  "probability": 0.4299765046830646,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:30 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:30.140685",
+  "frame": 1609,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:30 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:30.185128",
+  "frame": 1610,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:30 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:30.294625",
+  "frame": 1612,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:30 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:30.381791",
+  "frame": 1614,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:30 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:30.437238",
+  "frame": 1615,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:30 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:30.700125",
+  "frame": 1620,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:30 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:30.898389",
+  "frame": 1624,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:30 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:30.997582",
+  "frame": 1626,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:31.203437",
+  "frame": 1630,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:31.247504",
+  "frame": 1631,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:31.302467",
+  "frame": 1632,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:31.414170",
+  "frame": 1634,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:31.533756",
+  "frame": 1636,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:31.590528",
+  "frame": 1637,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:31.688090",
+  "frame": 1639,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:31.745332",
+  "frame": 1640,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:31 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:31.899591",
+  "frame": 1643,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:32 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:32.042442",
+  "frame": 1646,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:32 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:32.140869",
+  "frame": 1648,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:32 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:32.348394",
+  "frame": 1652,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:32 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:32.577763",
+  "frame": 1656,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:32 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:32.851265",
+  "frame": 1661,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:32 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:32.895832",
+  "frame": 1662,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:32 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:32.995802",
+  "frame": 1664,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:33 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:33.107785",
+  "frame": 1666,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:33 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:33.173474",
+  "frame": 1667,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:33 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:33.240923",
+  "frame": 1668,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:33 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:33.385304",
+  "frame": 1671,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:33 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:33.429901",
+  "frame": 1672,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:33 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:33.484495",
+  "frame": 1673,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:33 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:33.528863",
+  "frame": 1674,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:33 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:33.680427",
+  "frame": 1677,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:33 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:33.824124",
+  "frame": 1680,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:34 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:34.433691",
+  "frame": 1689,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:34 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:34.642851",
+  "frame": 1693,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:34 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:34.688959",
+  "frame": 1694,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:34 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:34.779564",
+  "frame": 1696,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:34 [INFO] Frame 1700: Falling (확률: 42.0%)
+2026-01-28 18:27:34 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:34.978994",
+  "frame": 1700,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.023554",
+  "frame": 1701,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.068073",
+  "frame": 1702,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.133820",
+  "frame": 1703,
+  "prediction": "Falling",
+  "probability": 0.49,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.201193",
+  "frame": 1704,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.244447",
+  "frame": 1705,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.288646",
+  "frame": 1706,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.344190",
+  "frame": 1707,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.387897",
+  "frame": 1708,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.443036",
+  "frame": 1709,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.499227",
+  "frame": 1710,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.554150",
+  "frame": 1711,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.599300",
+  "frame": 1712,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.643076",
+  "frame": 1713,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.687059",
+  "frame": 1714,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.731121",
+  "frame": 1715,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.787305",
+  "frame": 1716,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.831359",
+  "frame": 1717,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.886602",
+  "frame": 1718,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.943435",
+  "frame": 1719,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:35 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:35.997302",
+  "frame": 1720,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:36.052439",
+  "frame": 1721,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:36.096649",
+  "frame": 1722,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:36.140095",
+  "frame": 1723,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:36.272752",
+  "frame": 1726,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:36.361713",
+  "frame": 1728,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:36.483910",
+  "frame": 1730,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:36.582913",
+  "frame": 1732,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:36.759593",
+  "frame": 1735,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:36.858949",
+  "frame": 1737,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:36 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:36.924491",
+  "frame": 1738,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.036929",
+  "frame": 1740,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.080483",
+  "frame": 1741,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.134101",
+  "frame": 1742,
+  "prediction": "Falling",
+  "probability": 0.38,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.188944",
+  "frame": 1743,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.276044",
+  "frame": 1745,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.329473",
+  "frame": 1746,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.373504",
+  "frame": 1747,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.416252",
+  "frame": 1748,
+  "prediction": "Falling",
+  "probability": 0.47,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.632909",
+  "frame": 1752,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.688763",
+  "frame": 1753,
+  "prediction": "Falling",
+  "probability": 0.5,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.839349",
+  "frame": 1756,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:37 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:37.905748",
+  "frame": 1757,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:38 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:38.007026",
+  "frame": 1759,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:38 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:38.148959",
+  "frame": 1762,
+  "prediction": "Falling",
+  "probability": 0.45,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:38 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:38.193265",
+  "frame": 1763,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:38 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:38.304254",
+  "frame": 1765,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:38 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:38.347252",
+  "frame": 1766,
+  "prediction": "Falling",
+  "probability": 0.46,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:38 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:38.390431",
+  "frame": 1767,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:38 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:38.434719",
+  "frame": 1768,
+  "prediction": "Falling",
+  "probability": 0.48,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:38 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:38.543767",
+  "frame": 1770,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:38 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:38.598248",
+  "frame": 1771,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:38 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:38.706914",
+  "frame": 1773,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.043948",
+  "frame": 1779,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.186222",
+  "frame": 1782,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.228872",
+  "frame": 1783,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.372125",
+  "frame": 1786,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.439451",
+  "frame": 1787,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.526724",
+  "frame": 1789,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.571202",
+  "frame": 1790,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.670413",
+  "frame": 1792,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.758983",
+  "frame": 1794,
+  "prediction": "Falling",
+  "probability": 0.4,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.812885",
+  "frame": 1795,
+  "prediction": "Falling",
+  "probability": 0.41,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:39 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:39.922620",
+  "frame": 1797,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:40 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:40.010882",
+  "frame": 1799,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:40 [INFO] Frame 1800: Normal (확률: 43.0%)
+2026-01-28 18:27:40 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:40.623806",
+  "frame": 1811,
+  "prediction": "Falling",
+  "probability": 0.42,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:40 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:40.745279",
+  "frame": 1813,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:40 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:40.789207",
+  "frame": 1814,
+  "prediction": "Falling",
+  "probability": 0.49,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:40 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:40.843680",
+  "frame": 1815,
+  "prediction": "Falling",
+  "probability": 0.44,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:40 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:40.899394",
+  "frame": 1816,
+  "prediction": "Falling",
+  "probability": 0.39,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:40 [WARNING] 🚨 낙상 감지! {
+  "timestamp": "2026-01-28T18:27:40.953438",
+  "frame": 1817,
+  "prediction": "Falling",
+  "probability": 0.43,
+  "hip_height": 0.0,
+  "spine_angle": 0.0,
+  "hip_velocity": 0.0
+}
+2026-01-28 18:27:40 [INFO] 사용자 종료 요청
+2026-01-28 18:27:40 [INFO] 📊 통계 저장: logs/statistics_20260128_182740.json
+2026-01-28 18:27:40 [INFO] ============================================================
+2026-01-28 18:27:40 [INFO] ✅ 종료! 총 프레임: 1818
+2026-01-28 18:27:40 [INFO] 예측 통계: {'Normal': 866, 'Falling': 429, 'Fallen': 1}
+2026-01-28 18:27:40 [INFO] 낙상 이벤트: 430회
+2026-01-28 18:27:40 [INFO] ============================================================
