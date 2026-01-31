@@ -174,7 +174,7 @@ config = {
     'host': 'localhost',
     'database': 'home_safe',
     'user': 'homesafe',
-    'password': 'homesafe2026'
+    'password': '*******'
 }
 ```
 
