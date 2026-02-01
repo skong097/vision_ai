@@ -22,18 +22,18 @@ myproj/
 └── skeleton/           # YOLO Pose 키포인트 추출 데이터 (CSV)
 
 ## 🚀 시작하기 (Getting Started)
-1. 환경 설정 (Prerequisites)
-Python 3.8 이상 권장
-
-2. MySQL 데이터베이스 서버
-
-3. 설치 (Installation)
+* 환경 설정 (Prerequisites)
+* Python 3.8 이상 권장
+* MySQL 데이터베이스 서버
+* 설치 (Installation)
+<code>
 git clone https://github.com/skong097/vision_ai.git
 cd vision_ai
 pip install -r requirements.txt
+</code>
 
 4. 실행 (Usage)
-python gui/main.py
+<code> python gui/main.py </code>
 
 
 # 📊 분석 알고리즘 (Algorithm Details)
