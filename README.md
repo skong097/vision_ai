@@ -39,18 +39,15 @@ pip install -r requirements.txt
 python gui/main.py
 </code></pre>
 
-# 📊 분석 알고리즘 (Algorithm Details)
+## 📊 분석 알고리즘 (Algorithm Details)
 * Pose Estimation: YOLO v8n-pose / v11s-pose
 * Classification: Random Forest (100 trees, depth=20) 
 * feature Engineering:
   * 정적 특징: 관절 각도, 신체 비율, 가속도계 데이터 등
   * 동적 특징: 키포인트별 속도 및 가속도, 이동 평균 통계량 등 (총 181개)
 
-# ⚠️ 주의 사항 (Important Notes)
-* 경로 설정: 현재 코드 내에 /home/gjkong/dev_ws/yolo/myproj/와 같이 하드코딩된 경로가 포함되어 있으니 실행 환경에 맞춰 수정이 필요합니다.
-* 특징 순서: 모델 예측 시 특징 컬럼의 순서가 중요하므로 반드시 feature_columns.txt를 참조하십시오.
 
-# 🛠 기술 스택 (Tech Stack)
+## 🛠 기술 스택 (Tech Stack)
 * Vision: Ultralytics YOLO, OpenCV
 * Machine Learning: Scikit-learn, Pandas, NumPy
 * GUI: PyQt6
