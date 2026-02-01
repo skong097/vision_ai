@@ -4,8 +4,6 @@
 
 **Home Safe Solution**은 YOLO Pose 기반 키포인트 검출과 Random Forest 분류기를 활용한 **실시간 낙상 감지 시스템**입니다.
 
-- **총 코드 라인**: ~10,700줄
-- **Python 파일**: 53개
 - **핵심 기술**: YOLO v8/v11 Pose, Random Forest, PyQt6
 
 ---
