@@ -33,9 +33,9 @@ pip install -r requirements.txt
 </code></pre>
 
 * 실행 (Usage)
-<code>
+<code><pre>
 python gui/main.py
-</code>
+</code></pre>
 
 
 # 📊 분석 알고리즘 (Algorithm Details)
