@@ -26,8 +26,8 @@ myproj/
 
 ## 🚀 시작하기 (Getting Started)
 * 환경 설정 (Prerequisites)
-* Python 3.8 이상 권장
-* MySQL 데이터베이스 서버
+ * Python 3.8 이상 권장
+ * MySQL 데이터베이스 서버
 * 설치 (Installation)
 <code><pre>
 git clone https://github.com/skong097/vision_ai.git
