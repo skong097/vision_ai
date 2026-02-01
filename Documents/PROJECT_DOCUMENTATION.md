@@ -26,7 +26,6 @@ myproj/
 │   └── binary/         # 이진 분류 Random Forest 모델
 ├── scripts/            # 데이터 처리 및 학습 스크립트
 │   ├── admin/          # 관리자용 스크립트
-│   └── old/            # 이전 버전 스크립트 (아카이브)
 └── skeleton/           # YOLO Pose 키포인트 데이터 (CSV)
 ```
 
