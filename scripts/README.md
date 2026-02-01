@@ -342,45 +342,12 @@ model = joblib.load('models/binary/random_forest_model.pkl')
 
 ## 📞 다음 단계
 
-### Phase 6: LSTM 모델 (예정)
+### LSTM 모델 (예정)
 - Sequence 데이터 생성
 - LSTM 아키텍처 설계
 - 성능 비교 (RF vs LSTM)
 - 앙상블 고려
 
-### Phase 7: 실시간 시스템 (예정)
-- PyQt6 GUI 통합
-- 실시간 모니터링
-- 녹화 시스템 (Rolling 5분)
-- MySQL 연동
-- 알람 로직 구현
-
-### Phase 8: 배포 (예정)
-- 최적화 (모델 경량화)
-- Docker 컨테이너화
-- API 서버 구축
-
----
-
-## 🎯 현재 상태
-
-✅ 데이터 수집 완료 (30개 동영상 + 가속도)
-✅ YOLO Pose 환경 구축
-✅ 전체 파이프라인 스크립트 완성
-⏳ **실행 대기 중** ← 여기!
-⏳ LSTM 모델 대기
-⏳ GUI 시스템 대기
-
----
-
-## 💡 팁
-
-1. **GPU 확인**: `nvidia-smi`로 GPU 사용 가능 여부 확인
-2. **빠른 테스트**: 처음 3개 파일로만 테스트 후 전체 실행
-3. **로그 저장**: `python run_pipeline.py 2>&1 | tee pipeline.log`
-4. **중간 저장**: 각 단계마다 자동으로 파일 저장되므로 중단 후 재시작 가능
-
----
 
 **작성일**: 2026-01-28
 **버전**: 1.0.0
