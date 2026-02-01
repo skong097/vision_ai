@@ -26,14 +26,16 @@ myproj/
 * Python 3.8 이상 권장
 * MySQL 데이터베이스 서버
 * 설치 (Installation)
-<code>
+<code><pre>
 git clone https://github.com/skong097/vision_ai.git
 cd vision_ai
 pip install -r requirements.txt
-</code>
+</code></pre>
 
-4. 실행 (Usage)
-<code> python gui/main.py </code>
+* 실행 (Usage)
+<code>
+python gui/main.py
+</code>
 
 
 # 📊 분석 알고리즘 (Algorithm Details)
