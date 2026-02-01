@@ -11,7 +11,7 @@
 - 다중 클래스 분류: 단순 이진 분류(정상/낙상)뿐만 아니라 3클래스(정상/낙상 중/낙상 완료) 분류 모델을 지원합니다.
 
 ## 📂 디렉토리 구조 (Directory Structure)
-Plaintext
+
 myproj/
 ├── gui/                # PyQt6 GUI 애플리케이션 소스 코드
 ├── scripts/            # 데이터 전처리, 특징 추출 및 모델 학습 스크립트
@@ -39,7 +39,7 @@ python gui/main.py
 # 📊 분석 알고리즘 (Algorithm Details)
 * Pose Estimation: YOLO v8n-pose / v11s-pose
 * Classification: Random Forest (100 trees, depth=20) 
-* eature Engineering:
+* feature Engineering:
   * 정적 특징: 관절 각도, 신체 비율, 가속도계 데이터 등
   * 동적 특징: 키포인트별 속도 및 가속도, 이동 평균 통계량 등 (총 181개)
 
