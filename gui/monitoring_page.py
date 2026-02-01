@@ -682,20 +682,27 @@ class MonitoringPage(QWidget):
             return 0, [1.0, 0.0, 0.0]
     
     def draw_prediction(self, frame, prediction, proba):
-        """예측 결과 오버레이"""
+        """예측 결과 오버레이 (우측 상단)"""
         try:
             h, w = frame.shape[:2]
-            
-            # 반투명 배경
+
+            # 박스 크기 및 위치 (우측 상단)
+            box_width = 270
+            box_height = 180
+            margin = 10
+            box_x = w - box_width - margin  # 우측 상단 X 좌표
+            box_y = 10  # 상단 Y 좌표
+
+            # 반투명 배경 (우측 상단)
             overlay = frame.copy()
-            cv2.rectangle(overlay, (10, 100), (280, 280), (0, 0, 0), -1)
+            cv2.rectangle(overlay, (box_x, box_y), (box_x + box_width, box_y + box_height), (0, 0, 0), -1)
             frame = cv2.addWeighted(overlay, 0.7, frame, 0.3, 0)
-            
+
             # 클래스 이름 및 색상
             class_name = self.class_names[prediction]
             color = self.class_colors[prediction]
             confidence = proba[prediction]
-            
+
             # 상태 표시 (영문)
             status_map = {
                 'Normal': 'Normal',
@@ -703,7 +710,7 @@ class MonitoringPage(QWidget):
                 'Fallen': 'Fallen'
             }
             status = status_map.get(class_name, class_name)
-            
+
             # 아이콘 추가
             icon_map = {
                 'Normal': '[OK]',
@@ -711,29 +718,32 @@ class MonitoringPage(QWidget):
                 'Fallen': '[DANGER]'
             }
             icon = icon_map.get(class_name, '')
-            
-            cv2.putText(frame, f"{icon} {status}", (20, 140),
+
+            # 텍스트 X 좌표 (박스 내부)
+            text_x = box_x + 10
+
+            cv2.putText(frame, f"{icon} {status}", (text_x, box_y + 40),
                        cv2.FONT_HERSHEY_SIMPLEX, 0.9, color, 2)
-            
+
             # 신뢰도
-            cv2.putText(frame, f"Confidence: {confidence*100:.1f}%", (20, 175),
+            cv2.putText(frame, f"Confidence: {confidence*100:.1f}%", (text_x, box_y + 75),
                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
-            
+
             # 각 클래스 확률
-            y_offset = 205
+            y_offset = box_y + 105
             for i, prob in enumerate(proba):
                 cls_name = self.class_names.get(i, f"Class {i}")
                 bar_width = int(prob * 230)
-                
+
                 # 확률 바
-                cv2.rectangle(frame, (20, y_offset-10), (20 + bar_width, y_offset+5), 
+                cv2.rectangle(frame, (text_x, y_offset-10), (text_x + bar_width, y_offset+5),
                              self.class_colors[i], -1)
-                
+
                 # 텍스트
-                cv2.putText(frame, f"{cls_name}: {prob*100:.1f}%", (20, y_offset),
+                cv2.putText(frame, f"{cls_name}: {prob*100:.1f}%", (text_x, y_offset),
                            cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 1)
                 y_offset += 25
-            
+
             return frame
             
         except Exception as e:
