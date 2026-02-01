@@ -51,8 +51,8 @@ python gui/main.py
 * 특징 순서: 모델 예측 시 특징 컬럼의 순서가 중요하므로 반드시 feature_columns.txt를 참조하십시오.
 
 # 🛠 기술 스택 (Tech Stack)
-Vision: Ultralytics YOLO, OpenCV
-Machine Learning: Scikit-learn, Pandas, NumPy
-GUI: PyQt6
-Database: MySQL (mysql-connector-python)
-Security: Bcrypt (Password Hashing)
+* Vision: Ultralytics YOLO, OpenCV
+* Machine Learning: Scikit-learn, Pandas, NumPy
+* GUI: PyQt6
+* Database: MySQL (mysql-connector-python)
+* Security: Bcrypt (Password Hashing)
